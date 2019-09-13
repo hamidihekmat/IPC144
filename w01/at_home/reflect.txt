@@ -1,0 +1,12 @@
+
+//==============================================
+// Name:           Hekmat Hamidi
+// Student Number: 132645169
+// Email:          hwhamidi@myseneca.ca
+// Section:        NXX
+// Workshop:       1 (at-home)
+//==============================================
+
+In this workshop I leanrned how to output into the terminal console using
+the prinf function. Instead of me typing 32 (*) manually, I used a for loop
+and created 32 (*). 
