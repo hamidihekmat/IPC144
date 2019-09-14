@@ -36,6 +36,6 @@ int main(void)
 	printf("Quarters required: %d, balance owing $%.2f\n", quarters, quarters_owing);
 	printf("Dimes required: %d, balance owing $%.2f\n", dime, dime_owing);
 	printf("Nickles required: %d, balance owing $%.2f\n", nickle, nickle_owing);
-	printf("Pennies required: %.f, balance owing $%.2f", pennies, pennies_owing);
+	printf("Pennies required: %.f, balance owing $%.2f\n", pennies, pennies_owing);
 	return 0;
 }
