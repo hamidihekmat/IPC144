@@ -14,20 +14,20 @@
 int main(void)
 {
 	// Initialize variables
-	const float l = 1.0, q = 0.25;
-	float amount;
+	const double q = 0.25;
+	double amount;
 	int loonies, quarters;
-	float loonies_owing, quarters_owing;
+	double loonies_owing, quarters_owing;
 	// Input of amount
 	printf("Please enter the amount to be paid: $");
-	scanf("%f", &amount);
+	scanf("%lf", &amount);
 	// Calculation
 	loonies = amount;
 	loonies_owing = amount - loonies;
 	quarters = ((amount - loonies) / q);
 	quarters_owing = loonies_owing - (quarters * q);
 	// Output
-	printf("Loonies required: %d, balance owing $%.2f\n", loonies, loonies_owing);
-	printf("Quarters required: %d, balance owing $%.2f\n", quarters, quarters_owing);
+	printf("Loonies required: %d, balance owing $%.2lf\n", loonies, loonies_owing);
+	printf("Quarters required: %d, balance owing $%.2lf\n", quarters, quarters_owing);
 	return 0;
 }
