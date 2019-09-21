@@ -1,0 +1,49 @@
+
+
+//==============================================
+
+// Name:           Hekmat Hamidi
+
+// Student Number: 132645169
+
+// Email:          hwhamidi@myseneca.ca
+
+// Section:        XN
+
+// Workshop:       2 (at-home)
+
+//==============================================
+
+
+
+
+In this lab and take home lab I learned many new concept about C programming. I learned
+type castin
+
+//==============================================
+
+// Name:           Hekmat Hamidi
+
+// Student Number: 132645169
+
+// Email:          hwhamidi@myseneca.ca
+
+// Section:        XN
+
+// Workshop:       2 (at-home)
+
+//==============================================
+
+
+
+
+In this lab and take home lab I learned many new concept about C programming. I learned
+type casting. Turning one type of variable into another. For e.g
+float x = 1.13;
+printf("%d", (int) x); -> 1
+This is very power tool to have when working with numbers. This essentially (not really)
+acts as a floor function.
+I also learned how to format variales using printf.
+%2lf or %.lf etc....
+
+
