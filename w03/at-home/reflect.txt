@@ -1,0 +1,7 @@
+@Hekmat Hamidi
+@132645169
+
+
+
+This lab was pretty difficult at first but later on it made more sense. I reallylike how everything in C needs to be specified or else we have an error in th eprogram. I learned how to use logic to manipulate the program and do some basic calculation. I've learned how to use nested for loops and while loops.
+I can't wait for the next lab.

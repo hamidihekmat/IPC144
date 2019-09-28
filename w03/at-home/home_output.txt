@@ -1,4 +1,4 @@
-Script started on Fri 27 Sep 2019 10:54:35 PM EDT
+Script started on Wed 29 May 2019 04:21:51 AM EDT
 ---=== IPC Temperature Analyzer ===---
 Enter the high value for day 1: 8
 
@@ -28,4 +28,4 @@ The average (mean) temperature was: 5.00
 The highest temperature was 11, on day 3
 The lowest temperature was -4, on day 2
 
-Script done on Fri 27 Sep 2019 10:54:51 PM EDT
+Script done on Wed 29 May 2019 04:22:03 AM EDT

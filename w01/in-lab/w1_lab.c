@@ -4,7 +4,7 @@
 //// Student Number: 132645169
 //// Email:          hwhamidi@myseneca.ca
 //// Section:        NXX
-//// Workshop:       1 (at-home)
+//// Workshop:       1 (in-lab)
 ////==============================================
 //
 
@@ -12,16 +12,6 @@
 
 int main()
 {
-    int i;
-    for(i=1; i <= 32; i++)
-    {
-        printf("*");
-    } 
-    printf("\n*** Welcome to C Programming ***\n");
-    for(i=1; i<=32; i++)
-    {
-        printf("*");
-    } 
-    printf("\n");
+    printf("*** Welcome to C Programming ***\n");
     return 0;
 }

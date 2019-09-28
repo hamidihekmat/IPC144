@@ -17,7 +17,7 @@ int main()
   // initialized variables
   int high;
   int low;
-  double mean_l, mean_h, mean_temp;
+  double mean_l, mean_h;
   int highest[2], lowest[2];
   highest[0] = 0; lowest[0] = 0;
   // print title
