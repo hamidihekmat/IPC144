@@ -14,25 +14,24 @@
 
 int main()
 {
+  // initialized variables
   int high;
   int low;
-
+  // print title
   printf("--== IPC Temperature Analyzer ===---\n");
   int i;
-  for(i = 1; i <= NUMS; i++)
+  for(i = 1; i <= NUMS; i++) //loop through number of days
   {
     printf("Enter the high value for day%d: ", i);
     scanf("%d", &high);
     printf("Enter the low value for day%d: ", i);
     scanf("%d", &low);
-    while((high < low || high >= 40) || low <= -40){
+    while((high < low || high >= 40) || low <= -40){ // if the condition is not met, decrement
       printf("Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.\n");
       i--;
       break;
     }
 
   }
-  printf("%d", high);
-  printf("%d", low);
   return 0;
 }
