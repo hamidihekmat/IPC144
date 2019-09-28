@@ -18,7 +18,7 @@ int main()
   int high;
   int low;
   // print title
-  printf("--== IPC Temperature Analyzer ===---\n");
+  printf("---=== IPC Temperature Analyzer ===---\n");
   int i;
   for(i = 1; i <= NUMS; i++) //loop through number of days
   {
