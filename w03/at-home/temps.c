@@ -31,6 +31,7 @@ int main()
     while((high < low || high >= 40) || low <= -40){ // if the condition is not met, decrement
       printf("Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.\n");
       i--;
+      printf("\n");
       break;
     }
 
