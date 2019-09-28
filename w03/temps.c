@@ -24,7 +24,7 @@ int main()
   {
     printf("Enter the high value for day %d: ", i);
     scanf("%d", &high);
-    printf("\n")
+    printf("\n");
     printf("Enter the low value for day %d: ", i);
     scanf("%d", &low);
     while((high < low || high >= 40) || low <= -40){ // if the condition is not met, decrement
