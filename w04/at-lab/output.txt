@@ -1,4 +1,4 @@
-Script started on Fri 04 Oct 2019 05:26:10 PM EDT
+Script started on Fri 04 Oct 2019 05:44:17 PM EDT
 ---=== IPC Temperature Calculator V2.0 ===---
 Please enter the number of days, between 3 and 10, inclusive: 2
 
@@ -19,4 +19,4 @@ Day  Hi  Low
 3    7    -3
 4    9    -4
 
-Script done on Fri 04 Oct 2019 05:26:35 PM EDT
+Script done on Fri 04 Oct 2019 05:44:52 PM EDT
