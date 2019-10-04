@@ -32,14 +32,7 @@ int main(void)
     scanf("%d", &high[i]);
     printf("Day %d - Low: ", i + 1);
     scanf("%d", &low[i]);
-    while ((high[i] < low[i] || high[i] >= 40) || low[i] <= -40)
-    { // if the condition is not met, decrement
-      printf("Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.\n");
-      i--;
-      printf("\n");
-      break;
     }
-  }
   printf("\nDay  Hi  Low\n");
   for (i = 0; i < NUMS; i++)
   {
