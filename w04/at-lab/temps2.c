@@ -13,10 +13,6 @@ int main(void)
 {
   // initialized variables
   int NUMS;
-  double mean_l, mean_h;
-  int highest[2], lowest[2];
-  highest[0] = 0;
-  lowest[0] = 41;
   // print title
   printf("---=== IPC Temperature Calculator V2.0 ===---\n");
   printf("Please enter the number of days, between 3 and 10, inclusive: ");
@@ -44,10 +40,10 @@ int main(void)
       break;
     }
   }
-  printf("\nDay Hi Low\n");
+  printf("\nDay  Hi  Low\n");
   for (i = 0; i < NUMS; i++)
   {
-    printf("%d   %d  %d\n", i + 1, high[i], low[i]);
+    printf("%d    %d    %d\n", i + 1, high[i], low[i]);
   }
   return 0;
 }
