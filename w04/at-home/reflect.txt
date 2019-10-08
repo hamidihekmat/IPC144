@@ -1,7 +1,12 @@
-@Hekmat Hamidi
-@132645169
+// Hekmat Hamidi
+// 132645169
+// Workshop
 
+In this lab we were introduced to array. Arrays are collection of types of data
+and it is very useful for storing and sorting information. Instead of relying on just on
+variable we can store multiple sets of data in the array. E.g int ar[4] = {1,2,3,4}
+Array become very useful when I was storing sorted information, you can easily use a for-loop
+and manipulate or print the content of the array on the the console
 
-
-This lab was pretty difficult at first but later on it made more sense. I reallylike how everything in C needs to be specified or else we have an error in th eprogram. I learned how to use logic to manipulate the program and do some basic calculation. I've learned how to use nested for loops and while loops.
-I can't wait for the next lab.
+What I learned is that array is a collection of pointers to the memory where the value is stored.
+Overall array allows programmers to program more efficiently and organize data easily.  
