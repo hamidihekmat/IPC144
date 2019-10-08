@@ -4,7 +4,7 @@
 // Student Number: 13245169
 // Email:          hwhamidi@myseneca.ca
 // Section:        NXX
-// Workshop:       4 (at-lab)
+// Workshop:       4 (at-home)
 //==============================================
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -57,7 +57,7 @@ int main(void)
   while(!(choice < 0))
   {
     if(choice > NUMS || choice == 0){
-      printf("\nInvalid entry please enter a number between 1 and %d, inclusive: ", NUMS);
+      printf("\nInvalid entry, please enter a number between 1 and %d, inclusive: ", NUMS);
       scanf("%d", &choice);
     }
     if(choice <= NUMS && choice >=1){
