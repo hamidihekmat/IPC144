@@ -97,9 +97,9 @@ int main(void)
           printf("Enter Employee Salary: ");
           scanf("%lf", &emp[limit].salary);
           printf("\n");
-          }
           limit++;
           break;
+          }
       }
       } else {
         printf("ERROR!!! Maximum Number of Employees Reached\n");
