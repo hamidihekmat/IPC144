@@ -51,7 +51,7 @@ int main(void)
 		switch (option)
 		{
 		case 0:	// Exit the program
-
+			printf("Exiting Employee Data Program. Good Bye!!!\n");
 			break;
 
 		case 1: // Display Employee Data
@@ -112,8 +112,8 @@ int main(void)
 			break;
 
     case 3:
-    printf("Update Employee Salary");
-    printf("======================");
+    printf("Update Employee Salary\n");
+    printf("======================\n");
     do {
     printf("Enter Employee ID: ");
     scanf("%d", &eID);
@@ -138,6 +138,8 @@ int main(void)
     break;
 
     case 4:
+    printf("Remove Employee\n");
+    printf("===============\n");
     do {
     printf("Enter Employee ID: ");
     scanf("%d", &eID);

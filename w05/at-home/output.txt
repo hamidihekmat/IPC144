@@ -1,4 +1,4 @@
-Script started on Tue 15 Oct 2019 09:58:55 PM EDT
+Script started on Tue 15 Oct 2019 11:23:31 PM EDT
 ---=== EMPLOYEE DATA ===---
 
 1. Display Employee Information
@@ -113,6 +113,8 @@ EMP ID  EMP AGE EMP SALARY
 
 Please select from the above options: 3
 
+Update Employee Salary
+======================
 Enter Employee ID: 123
 *** ERROR: Employee ID not found! ***
 Enter Employee ID: 321
@@ -120,7 +122,7 @@ Enter Employee ID: 321
 Enter Employee ID: 333
 The current salary is 33333.33
 Enter Employee New Salary: 99999.99
-*** ERROR: Employee ID not found! ***
+
 1. Display Employee Information
 2. Add Employee
 3. Update Employee Salary
@@ -144,11 +146,66 @@ EMP ID  EMP AGE EMP SALARY
 
 Please select from the above options: 4
 
+Remove Employee
+===============
 Enter Employee ID: 789
 *** ERROR: Employee ID not found! ***
 Enter Employee ID: 987
 *** ERROR: Employee ID not found! ***
 Enter Employee ID: 333
-*** ERROR: Employee ID not found! ***
-Enter Employee ID: ^C
-Script done on Tue 15 Oct 2019 10:00:51 PM EDT
+Employee 333 will be removed
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 1
+
+EMP ID  EMP AGE EMP SALARY
+======  ======= ==========
+   222       22   22222.22
+   444       44   44444.44
+   555       55   55555.55
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
+Enter Employee ID: 666
+Enter Employee Age: 66
+Enter Employee Salary: 66666.66
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 1
+
+EMP ID  EMP AGE EMP SALARY
+======  ======= ==========
+   222       22   22222.22
+   666       66   66666.66
+   444       44   44444.44
+   555       55   55555.55
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 0
+
+Exiting Employee Data Program. Good Bye!!!
+
+Script done on Tue 15 Oct 2019 11:24:33 PM EDT
