@@ -81,10 +81,10 @@ int main(void)
 
 		case 2:	// Adding Employee
 				// @IN-LAB
+      printf("Adding Employee\n");
+      printf("===============\n");
       if(limit !=MAXSIZE)
       {
-        printf("Adding Employee\n");
-        printf("===============\n");
         printf("Enter Employee ID: ");
         scanf("%d", &emp[limit].id);
         printf("Enter Employee Age: ");
@@ -117,11 +117,8 @@ int main(void)
           scanf("%lf", &emp[i].salary);
           temp = 1;
         }
-        else {
-          printf("*** ERROR: Employee ID not found! ***\n");
-          break;
-        }
       }
+    printf("*** ERROR: Employee ID not found! ***\n");
     } while (temp != 1);
     temp = 0;
     break;
