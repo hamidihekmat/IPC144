@@ -99,6 +99,7 @@ int main(void)
           printf("\n");
           }
           limit++;
+          break;
       }
       } else {
         printf("ERROR!!! Maximum Number of Employees Reached\n");
