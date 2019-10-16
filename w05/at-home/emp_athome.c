@@ -62,9 +62,9 @@ int main(void)
       int i;
       for(i= 0; i < MAXSIZE; i++)
       {
-        // if(emp[i].id > 0){
+        if(emp[i].id > 0){
         printf("%6d%9d%11.2lf\n",emp[i].id, emp[i].age, emp[i].salary);
-        // }
+        }
       }
       printf("\n");
 
@@ -112,6 +112,8 @@ int main(void)
 			break;
 
     case 3:
+    printf("Update Employee Salary");
+    printf("======================");
     do {
     printf("Enter Employee ID: ");
     scanf("%d", &eID);
@@ -145,6 +147,7 @@ int main(void)
         if(eID == emp[i].id)
         {
           printf("Employee %d will be removed\n", emp[i].id);
+          printf("\n");
           emp[i].id = -1;
           limit--;
           temp = 1;
