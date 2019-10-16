@@ -1,0 +1,14 @@
+In line number 61 of your output:
+The output should be:
+Adding Employee
+^
+But your output is: 
+ERROR!!! Maximum Number of Employees Reached
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [A] ASCII code(65)
+but you printed
+  [E] ASCII code(69)
+

@@ -1,0 +1,18 @@
+  
+// Hekmat Hamidi
+// 132645169
+// Workshop
+
+
+This lab was quite challenging, this is not a bad thing but actually a good thing. This lab thought
+me how to think differently and come up with a different approach of solving the problem.
+In this lab we were introduced to struct. What is struct?
+In simplest term struct is away to store sets of different data type. OR an 'object'.
+
+Structs can be used to write cleaner code and store info into struct array and keep everything organized.
+This is really useful since C is not a OOP. At least now programers can have a way of storing data into
+C objects (structs).
+
+Overall this lab was very 'heavy' and I learned a lot from it.
+
+Hekmat Hamidi

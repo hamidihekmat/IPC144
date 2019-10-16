@@ -1,0 +1,70 @@
+Script started on Tue 15 Oct 2019 09:46:23 PM EDT
+---=== EMPLOYEE DATA ===---
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 5
+
+ERROR: Incorrect Option: Try Again
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 1
+
+EMP ID  EMP AGE EMP SALARY
+======  ======= ==========
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
+Enter Employee ID: 222
+Enter Employee Age: 22
+Enter Employee Salary: 22222.22
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
+Enter Employee ID: 333
+Enter Employee Age: 33
+Enter Employee Salary: 33333.33
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 2
+
+ERROR!!! Maximum Number of Employees Reached
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: ^C
+Script done on Tue 15 Oct 2019 09:46:58 PM EDT
