@@ -62,9 +62,9 @@ int main(void)
       int i;
       for(i= 0; i < MAXSIZE; i++)
       {
-        if(emp[i].id > 0){
+        // if(emp[i].id > 0){
         printf("%6d%9d%11.2lf\n",emp[i].id, emp[i].age, emp[i].salary);
-        }
+        // }
       }
       printf("\n");
 
@@ -88,14 +88,14 @@ int main(void)
         int i;
         for(i = 0; i < MAXSIZE; i++)
         {
-          if(emp[i].id == 0)
+          if(emp[i].id <= 0)
           {
           printf("Enter Employee ID: ");
-          scanf("%d", &emp[limit].id);
+          scanf("%d", &emp[i].id);
           printf("Enter Employee Age: ");
-          scanf("%d", &emp[limit].age);
+          scanf("%d", &emp[i].age);
           printf("Enter Employee Salary: ");
-          scanf("%lf", &emp[limit].salary);
+          scanf("%lf", &emp[i].salary);
           printf("\n");
           limit++;
           break;
@@ -145,7 +145,7 @@ int main(void)
         if(eID == emp[i].id)
         {
           printf("Employee %d will be removed\n", emp[i].id);
-          emp[i].id = 0;
+          emp[i].id = -1;
           limit--;
           temp = 1;
         }
@@ -154,7 +154,6 @@ int main(void)
     {
     printf("*** ERROR: Employee ID not found! ***\n");
     }
-    printf("\n");
     } while (temp != 1);
     break;
 
