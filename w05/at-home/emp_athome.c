@@ -85,14 +85,21 @@ int main(void)
       printf("===============\n");
       if(limit !=MAXSIZE)
       {
-        printf("Enter Employee ID: ");
-        scanf("%d", &emp[limit].id);
-        printf("Enter Employee Age: ");
-        scanf("%d", &emp[limit].age);
-        printf("Enter Employee Salary: ");
-        scanf("%lf", &emp[limit].salary);
-        printf("\n");
-        limit++;
+        int i;
+        for(i = 0; i < MAXSIZE; i++)
+        {
+          if(emp[i].id == 0)
+          {
+          printf("Enter Employee ID: ");
+          scanf("%d", &emp[limit].id);
+          printf("Enter Employee Age: ");
+          scanf("%d", &emp[limit].age);
+          printf("Enter Employee Salary: ");
+          scanf("%lf", &emp[limit].salary);
+          printf("\n");
+          }
+          limit++;
+      }
       } else {
         printf("ERROR!!! Maximum Number of Employees Reached\n");
         printf("\n");
@@ -116,9 +123,13 @@ int main(void)
           printf("Enter Employee New Salary: ");
           scanf("%lf", &emp[i].salary);
           temp = 1;
+          printf("\n");
         }
       }
+    if(temp == 0)
+    {
     printf("*** ERROR: Employee ID not found! ***\n");
+    }
     } while (temp != 1);
     temp = 0;
     break;
@@ -134,10 +145,15 @@ int main(void)
         {
           printf("Employee %d will be removed\n", emp[i].id);
           emp[i].id = 0;
+          limit--;
           temp = 1;
         }
-	}
+	     }
+    if(temp == 0)
+    {
     printf("*** ERROR: Employee ID not found! ***\n");
+    }
+    printf("\n");
     } while (temp != 1);
     break;
 
