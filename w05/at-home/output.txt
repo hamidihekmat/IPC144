@@ -1,4 +1,4 @@
-Script started on Tue 15 Oct 2019 09:46:23 PM EDT
+Script started on Tue 15 Oct 2019 09:58:55 PM EDT
 ---=== EMPLOYEE DATA ===---
 
 1. Display Employee Information
@@ -58,6 +58,36 @@ Enter Employee Salary: 33333.33
 
 Please select from the above options: 2
 
+Adding Employee
+===============
+Enter Employee ID: 444
+Enter Employee Age: 44
+Enter Employee Salary: 44444.44
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
+Enter Employee ID: 555
+Enter Employee Age: 55
+Enter Employee Salary: 55555.55
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 2
+
+Adding Employee
+===============
 ERROR!!! Maximum Number of Employees Reached
 
 1. Display Employee Information
@@ -66,5 +96,59 @@ ERROR!!! Maximum Number of Employees Reached
 4. Remove Employee
 0. Exit
 
-Please select from the above options: ^C
-Script done on Tue 15 Oct 2019 09:46:58 PM EDT
+Please select from the above options: 1
+
+EMP ID  EMP AGE EMP SALARY
+======  ======= ==========
+   222       22   22222.22
+   333       33   33333.33
+   444       44   44444.44
+   555       55   55555.55
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 3
+
+Enter Employee ID: 123
+*** ERROR: Employee ID not found! ***
+Enter Employee ID: 321
+*** ERROR: Employee ID not found! ***
+Enter Employee ID: 333
+The current salary is 33333.33
+Enter Employee New Salary: 99999.99
+*** ERROR: Employee ID not found! ***
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 1
+
+EMP ID  EMP AGE EMP SALARY
+======  ======= ==========
+   222       22   22222.22
+   333       33   99999.99
+   444       44   44444.44
+   555       55   55555.55
+
+1. Display Employee Information
+2. Add Employee
+3. Update Employee Salary
+4. Remove Employee
+0. Exit
+
+Please select from the above options: 4
+
+Enter Employee ID: 789
+*** ERROR: Employee ID not found! ***
+Enter Employee ID: 987
+*** ERROR: Employee ID not found! ***
+Enter Employee ID: 333
+*** ERROR: Employee ID not found! ***
+Enter Employee ID: ^C
+Script done on Tue 15 Oct 2019 10:00:51 PM EDT

@@ -136,11 +136,8 @@ int main(void)
           emp[i].id = 0;
           temp = 1;
         }
-        else {
-          printf("*** ERROR: Employee ID not found! ***\n");
-          break;
-        }
-      }
+	}
+    printf("*** ERROR: Employee ID not found! ***\n");
     } while (temp != 1);
     break;
 
