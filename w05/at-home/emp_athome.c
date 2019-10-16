@@ -81,7 +81,7 @@ int main(void)
 
 		case 2:	// Adding Employee
 				// @IN-LAB
-      if(limit !=2)
+      if(limit !=MAXSIZE)
       {
         printf("Adding Employee\n");
         printf("===============\n");
