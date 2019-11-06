@@ -108,10 +108,10 @@ int main (void)
 	printf("Name Details:\n");
 	printf("First name: %s\n", fullName.firstName);
 	printf("Middle initial(s): %s\n", fullName.middleInitial);
-	printf("Last name : %s\n", fullName.lastName);
+	printf("Last name: %s\n", fullName.lastName);
 	// Address Details
-	printf("\nAddress Details :\n");
-	printf("Street number : %d\n", addInfo.streetNumber);
+	printf("\nAddress Details:\n");
+	printf("Street number: %d\n", addInfo.streetNumber);
 	printf("Street name: %s\n", addInfo.street);
 	printf("Apartment: %d\n", addInfo.apartmentNumber);
 	printf("Postal code: %s\n", addInfo.postalCode);
