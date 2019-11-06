@@ -45,7 +45,6 @@ int main (void)
 	{
 		printf("Please enter the contact's middle initial(s): ");
 		scanf("%6[^\n]%*c", fullName.middleInitial);
-		option = 'n'; // reset option
 	}
 	// Get last Name
 	printf("Please enter the contact's last name: ");
@@ -67,7 +66,6 @@ int main (void)
 	{
 		printf("Please enter the contact's apartment number: ");
 		scanf("%d%*c", &addInfo.apartmentNumber);
-		option = 'n';
 	}
 	// Get postal code
 	printf(" Please enter the contact's postal code: ");
@@ -85,7 +83,6 @@ int main (void)
 	{
 		printf("Please enter the contact's cell phone number: ");
 		scanf("%10[^\n]%*c", phoneInfo.cell);
-		option == 'n';
 	}
 	// Home phone
 	printf("Do you want to enter a home phone number? (y or n): ");
@@ -94,7 +91,6 @@ int main (void)
 	{
 		printf("Please enter the contact's home phone number: ");
 		scanf("%10[^\n]%*c", phoneInfo.home);
-		option == 'n';
 	}
 	// business phone
 	printf("Do you want to enter a business phone number? (y or n): ");
@@ -103,7 +99,6 @@ int main (void)
 	{
 		printf("Please enter the contact's business phone number: ");
 		scanf("%10[^\n]%*c", phoneInfo.business);
-		option == 'n';
 	}
 
     // Display Contact Summary Details
