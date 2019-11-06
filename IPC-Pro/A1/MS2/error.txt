@@ -1,0 +1,10 @@
+a1ms2.c: In function ‘main’:
+a1ms2.c:87:3: warning: statement with no effect [-Wunused-value]
+   option == ' ';
+   ^
+a1ms2.c:96:3: warning: statement with no effect [-Wunused-value]
+   option == ' ';
+   ^
+a1ms2.c:105:3: warning: statement with no effect [-Wunused-value]
+   option == ' ';
+   ^
