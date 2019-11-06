@@ -68,7 +68,7 @@ int main (void)
 		scanf("%d%*c", &addInfo.apartmentNumber);
 	}
 	// Get postal code
-	printf(" Please enter the contact's postal code: ");
+	printf("Please enter the contact's postal code: ");
 	scanf("%7[^\n]%*c", addInfo.postalCode);
 	// Get contact's city
 	printf("Please enter the contact's city: ");
