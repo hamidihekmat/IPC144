@@ -1,0 +1,14 @@
+// Hekmat Hamidi
+// 132645169
+// Milestone 2
+
+In this milestone, I learned how to get "string" input from the console and store it into an struct object.
+C uses a needs to allocate spaces in an array for each characters. C also needs to ignore the end of the line
+"\n" from the input. This is kind of confusing at first but you eventually get used it.
+Using this method can make a program very secure since we know which data type we are exactly accepting.
+
+The best practice to store string in an array properly is first we need to identify the size of the data we want
+to store. For example, let's say we want to gather the user's phone number. We will have to allocate at least 11 spaces
+in an array since the last index is used to store "\0" which implies that the string has ended.
+
+String allows us to create more complex programs that will be very useful ecommerce and other types of tasks. 
