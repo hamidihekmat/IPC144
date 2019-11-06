@@ -123,7 +123,7 @@ int main (void)
 	printf("Business phone number: %s\n", phoneInfo.business);
 
     // Display Completion Message
-	printf("\nStructure test for Name, Address, and Numbers Done!");
+	printf("\nStructure test for Name, Address, and Numbers Done!\n");
 
 
     return 0;
