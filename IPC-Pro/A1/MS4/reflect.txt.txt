@@ -1,0 +1,10 @@
+// Hekmat Hamidi
+// 132645169
+
+
+In this milstone (4), I learned how to seperate my program into different files and then use them all together into one main program. 
+This is a very important when it comes to programming because this way each of your functions and stuctures are seperated for easy change in the future.
+I also learned about prototyping my functions so I can be recognized in a seperate file. This allows the compiler to know how to access those functions 
+within the main program (main c file)
+
+This workshop super fun because all you had to do was organize your code which was super satisfying.
