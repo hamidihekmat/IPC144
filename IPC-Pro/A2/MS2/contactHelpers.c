@@ -121,7 +121,7 @@ int yes(void)
 			break;
 		}
 	}
-	return;
+	return 1; //maybe change this
 }
 
 // menu: Empty function definition goes here:
