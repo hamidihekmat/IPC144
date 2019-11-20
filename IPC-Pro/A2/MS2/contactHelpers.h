@@ -1,8 +1,8 @@
 //==============================================
-// Name:           Full name here
-// Student Number: #########
-// Email:          userID@myseneca.ca
-// Section:        XXX
+// Name:           Hekmat Hamidi
+// Student Number: 132645169
+// Email:          hwhamidi@myseneca.ca
+// Section:        NXX
 // Date:           
 //==============================================
 // Assignment:     2
@@ -32,20 +32,24 @@ help reduce redundant coding for common repetitive tasks.
 // Clear the standard input buffer
 void clearKeyboard(void);
 
+// Clear the standard input buffer
+void clearKeyboard(void);
+
 // pause:
 // Put function prototype below:
-
+void pause(void);
 // getInt:
 // Put function prototype below:
-
+int getInt(void);
 // getIntInRange:
 // Put function prototype below:
-
+int getIntInRange(int min, int max);
 // yes:
 // Put function prototype below:
-
+int yes(void);
 // menu:
 // Put function prototype below:
-
+int menu(void);
 // contactManagerSystem:
 // Put function prototype below:
+void contactManagerSystem(void);

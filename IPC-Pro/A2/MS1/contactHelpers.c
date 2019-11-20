@@ -10,7 +10,6 @@
 //==============================================
 
 #define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 #include "contactHelpers.h"
 // This source file needs to "know about" the functions you prototyped
@@ -32,7 +31,6 @@
 // |                                                 |
 // | - The clearKeyboard function is done for you    |
 // +-------------------------------------------------+
-
 // clearKeyboard:  Empty function definition 
 void clearKeyboard(void)
 {
@@ -48,29 +46,28 @@ void pause(void)
 
 }
 
-
 // getInt: Empty function definition goes here:
 int getInt(void)
 {
 	int validInt;
 	char NL = 'x';
-	scanf("%d%c", validInt, NL);
+	scanf("%d%c", &validInt, &NL);
 	while (NL != '\n')
 	{
 		clearKeyboard();
 		printf("*** INVALID INTEGER *** <Please enter an integer>: ");
-		scanf("%d%c", validInt, NL);
+		scanf("%d%c", &validInt, &NL);
 	}
+	printf("%d", validInt);
 	return (validInt);
 }
-
 
 // getIntInRange: Empty function definition goes here:
 int getIntInRange(int min, int max)
 {
 	int validInt; // value used to check if it is in range of min and max
-	validInt = getInt(validInt); // calls getInt and returns a valid integer from user input
-	while (validInt < max || validInt > min)
+	validInt = getInt(); // calls getInt and returns a valid integer from user input
+	while (validInt > max || validInt < min)
 	{
 		printf("*** OUT OF RANGE *** <Enter a number between %d and %d>: ", min, max);
 		validInt = getInt(validInt);
@@ -78,20 +75,21 @@ int getIntInRange(int min, int max)
 	return (validInt);
 }
 
+
 // yes: Empty function definition goes here:
 int yes(void)
 {
 	int track = 1;
 	char validAnswer;
 	char NL;
-	scanf("%c%c", validAnswer, NL);
+	scanf("%c%c", &validAnswer, &NL);
 	while (track)
 	{
 		while (NL != '\n')
 		{
 			clearKeyboard();
 			printf("***INVALID ENTRY * **<Only(Y)es or (N)o are acceptable>: ");
-			scanf("%c%c", validAnswer, NL);
+			scanf("%c%c", &validAnswer, &NL);
 		}
 		switch (validAnswer)
 		{
@@ -113,9 +111,12 @@ int yes(void)
 			break;
 		default:
 			track = 1;
+			printf("***INVALID ENTRY * **<Only(Y)es or (N)o are acceptable>: ");
+			NL = 'x';
 			break;
 		}
 	}
+	return 0;
 
 }
 
@@ -134,10 +135,50 @@ int menu(void)
 	printf("0. Exit\n");
 	printf("\nSelect an option : ");
 	option = getIntInRange(0, 6);
+	return (option);
 }
+
 
 // contactManagerSystem: Empty function definition goes here:
 void contactManagerSystem(void)
 {
+	int option;
+	int exit = 2;
 
+	do {
+		option = menu();
+
+		switch (option)
+		{
+		case 1:
+			printf("<<< Feature 1 is unavailable >>>\n\n");
+			break;
+
+		case 2:
+			printf("<<< Feature 2 is unavailable >>>\n\n");
+			break;
+
+		case 3:
+			printf("<<< Feature 3 is unavailable >>>\n\n");
+			break;
+
+		case 4:
+			printf("<<< Feature 4 is unavailable >>>\n\n");
+			break;
+
+		case 5:
+			printf("<<< Feature 5 is unavailable >>>\n\n");
+			break;
+
+		case 0:
+			printf("Exit the program? (Y)es/(N)o: ");
+			exit = yes();
+			break;
+
+		default:
+			break;
+		}
+
+	} while (exit != 1);
+	printf("Contact Management System: terminated\n");
 }

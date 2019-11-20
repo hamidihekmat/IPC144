@@ -13,17 +13,26 @@
 
 #include <stdio.h>
 #include "contacts.h"
-
-// This source file needs to "know about" the structures you declared
-// in the header file before referring to those new types:
-// HINT: put the header file name in double quotes so the compiler knows
-//       to look for it in the same directory/folder as this source file
-// #include your contacts header file on the next line:
+#include "contactHelpers.h"
 
 
+// This source file needs to "know about" the functions you prototyped
+//         in the contact helper header file too
+// HINT-1: You will want to use the new yes() and getInt() functions to help
+//         simplify the data input process and reduce redundant coding
+//
+// HINT-2: Put the header file name in double quotes so the compiler knows
+//         to look for it in the same directory/folder as this source file
+//         #include your contactHelpers header file on the next line:
 
-// Get and store from standard input the values for Name
-// Put your code here that defines the Contact getName function:
+// +-------------------------------------------------+
+// | NOTE:  Copy/Paste your Assignment-2 Milestone-1 |
+// |        empty function definitions below and     |
+// |        complete the definitions as per the      |
+// |        Milestone-2 specifications               | 
+// +-------------------------------------------------+
+
+
 void getName(struct Name* name)
 {
 	char option;
@@ -31,8 +40,8 @@ void getName(struct Name* name)
 	scanf("%30[^\n]%*c", (*name).firstName);
 	// Get Middle Initial(s)
 	printf("Do you want to enter a middle initial(s)? (y or n): ");
-	scanf("%c%*c", &option);
-	if (option == 'y' || option == 'Y')
+	option = yes();
+	if (option == 1)
 	{
 		printf("Please enter the contact's middle initial(s): ");
 		scanf("%6[^\n]%*c", (*name).middleInitial);
@@ -58,8 +67,8 @@ void getAddress(struct Address* address)
 	scanf("%40[^\n]%*c", (*address).street);
 	// Get apartment Number
 	printf("Do you want to enter an apartment number? (y or n): ");
-	scanf("%c%*c", &option);
-	if (option == 'y' || option == 'Y')
+	option = yes();
+	if (option == 1)
 	{
 		printf("Please enter the contact's apartment number: ");
 		scanf("%d%*c", &(*address).apartmentNumber);
@@ -81,25 +90,21 @@ void getNumbers(struct Numbers* number)
 	char option;
 	// Contact Numbers Input:
 	// Cell phone
-	printf("Do you want to enter a cell phone number? (y or n): ");
-	scanf("%c%*c", &option);
-	if (option == 'y' || option == 'Y')
-	{
-		printf("Please enter the contact's cell phone number: ");
-		scanf("%10[^\n]%*c", (*number).cell);
-	}
+	printf("Please enter the contact's cell phone number: ");
+	scanf("%10[^\n]%*c", (*number).cell);
+
 	// Home phone
 	printf("Do you want to enter a home phone number? (y or n): ");
-	scanf("%c%*c", &option);
-	if (option == 'y' || option == 'Y')
+	option = yes();
+	if (option == 1)
 	{
 		printf("Please enter the contact's home phone number: ");
 		scanf("%10[^\n]%*c", (*number).home);
 	}
 	// business phone
 	printf("Do you want to enter a business phone number? (y or n): ");
-	scanf("%c%*c", &option);
-	if (option == 'y' || option == 'Y')
+	option = yes();
+	if (option == 1)
 	{
 		printf("Please enter the contact's business phone number: ");
 		scanf("%10[^\n]%*c", (*number).business);
@@ -114,5 +119,7 @@ void getNumbers(struct Numbers* number)
 // Define Empty function definition below:
 void getContact(struct Contact* contact)
 {
-	// place code here...
+	getName(&contact->name);
+	getAddress(&contact->address);
+	getNumbers(&contact->numbers);
 }
