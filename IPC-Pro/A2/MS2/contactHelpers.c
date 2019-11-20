@@ -46,7 +46,7 @@ void clearKeyboard(void)
 // pause: Empty function definition goes here:
 void pause(void)
 {
-	printf("(Press Enter to Continue)\n");
+	printf("(Press Enter to Continue)");
 	clearKeyboard();
 
 }
@@ -157,31 +157,37 @@ void contactManagerSystem(void)
 		case 1:
 			printf("\n<<< Feature 1 is unavailable >>>\n\n");
 			pause();
+			printf("\n");
 			break;
 
 		case 2:
 			printf("\n<<< Feature 2 is unavailable >>>\n\n");
 			pause();
+			printf("\n");
 			break;
 
 		case 3:
 			printf("\n<<< Feature 3 is unavailable >>>\n\n");
 			pause();
+			printf("\n");
 			break;
 
 		case 4:
 			printf("\n<<< Feature 4 is unavailable >>>\n\n");
 			pause();
+			printf("\n");
 			break;
 
 		case 5:
 			printf("\n<<< Feature 5 is unavailable >>>\n\n");
 			pause();
+			printf("\n");
 			break;
 
 		case 6:
 			printf("\n<<< Feature 6 is unavailable >>>\n\n");
 			pause();
+			printf("\n");
 			break;
 
 		case 0:
