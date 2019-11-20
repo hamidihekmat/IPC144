@@ -64,7 +64,7 @@ int getInt(void)
 		scanf("%d%c", &validInt, &NL);
 	}
 
-	return validInt;
+	return (validInt);
 }
 
 // getIntInRange: Empty function definition goes here:
@@ -75,7 +75,7 @@ int getIntInRange(int min, int max)
 	while (validInt > max || validInt < min)
 	{
 		printf("*** OUT OF RANGE *** <Enter a number between %d and %d>: ", min, max);
-		validInt = getInt(validInt);
+		validInt = getInt();
 	}
 	return (validInt);
 }
