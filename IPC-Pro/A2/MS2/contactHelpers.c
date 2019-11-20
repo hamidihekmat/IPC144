@@ -155,32 +155,32 @@ void contactManagerSystem(void)
 		switch (option)
 		{
 		case 1:
-			printf("<<< Feature 1 is unavailable >>>\n\n");
+			printf("\n<<< Feature 1 is unavailable >>>\n\n");
 			pause();
 			break;
 
 		case 2:
-			printf("<<< Feature 2 is unavailable >>>\n\n");
+			printf("\n<<< Feature 2 is unavailable >>>\n\n");
 			pause();
 			break;
 
 		case 3:
-			printf("<<< Feature 3 is unavailable >>>\n\n");
+			printf("\n<<< Feature 3 is unavailable >>>\n\n");
 			pause();
 			break;
 
 		case 4:
-			printf("<<< Feature 4 is unavailable >>>\n\n");
+			printf("\n<<< Feature 4 is unavailable >>>\n\n");
 			pause();
 			break;
 
 		case 5:
-			printf("<<< Feature 5 is unavailable >>>\n\n");
+			printf("\n<<< Feature 5 is unavailable >>>\n\n");
 			pause();
 			break;
 
 		case 6:
-			printf("<<< Feature 6 is unavailable >>>\n\n");
+			printf("\n<<< Feature 6 is unavailable >>>\n\n");
 			pause();
 			break;
 
