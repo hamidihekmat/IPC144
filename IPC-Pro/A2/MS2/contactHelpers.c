@@ -120,9 +120,8 @@ int yes(void)
 			NL = 'x';
 			break;
 		}
-		return (0);
 	}
-
+	return;
 }
 
 // menu: Empty function definition goes here:
