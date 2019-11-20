@@ -137,7 +137,7 @@ int menu(void)
 	printf("5. Search contacts by cell phone number\n");
 	printf("6. Sort contacts by cell phone number\n");
 	printf("0. Exit\n");
-	printf("\nSelect an option : ");
+	printf("\nSelect an option:> ");
 	option = getIntInRange(0, 6);
 	return (option);
 }
