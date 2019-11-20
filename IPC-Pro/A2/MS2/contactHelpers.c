@@ -64,7 +64,7 @@ int getInt(void)
 		scanf("%d%c", &validInt, &NL);
 	}
 
-	return (validInt);
+	return validInt;
 }
 
 // getIntInRange: Empty function definition goes here:
