@@ -93,7 +93,7 @@ int yes(void)
 		while (NL != '\n')
 		{
 			clearKeyboard();
-			printf("***INVALID ENTRY * **<Only(Y)es or (N)o are acceptable>: ");
+			printf("*** INVALID ENTRY *** <Only (Y)es or (N)o are acceptable>: ");
 			scanf("%c%c", &validAnswer, &NL);
 		}
 		switch (validAnswer)
