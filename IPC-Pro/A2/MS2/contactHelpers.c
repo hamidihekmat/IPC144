@@ -120,6 +120,7 @@ int yes(void)
 			NL = 'x';
 			break;
 		}
+		return (0);
 	}
 
 }
