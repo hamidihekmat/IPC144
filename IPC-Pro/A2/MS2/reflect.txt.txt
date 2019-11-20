@@ -1,0 +1,7 @@
+// Hekmat Hamidi
+// 132645169
+// NXX
+
+This milestone was pretty buggy for me. I got the idea of seperating each individual component of the program into different modules so it can easily be access within one file "a2m2.c". But I had to some issues running this code. After restarting my PC it seemed to work.
+
+SO far this milestone thought me some techniques on how to find bugs within my code. I created a different project and I tested each functions to see if there were any bugs within the program. This method really helped me understand how find and fix bugs.
