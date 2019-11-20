@@ -179,6 +179,11 @@ void contactManagerSystem(void)
 			pause();
 			break;
 
+		case 6:
+			printf("<<< Feature 6 is unavailable >>>\n\n");
+			pause();
+			break;
+
 		case 0:
 			printf("Exit the program? (Y)es/(N)o: ");
 			exit = yes();
