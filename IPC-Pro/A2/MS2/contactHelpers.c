@@ -191,8 +191,9 @@ void contactManagerSystem(void)
 			break;
 
 		case 0:
-			printf("Exit the program? (Y)es/(N)o: ");
+			printf("\nExit the program? (Y)es/(N)o: ");
 			exit = yes();
+			printf("\n");
 			break;
 
 		default:
