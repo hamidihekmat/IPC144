@@ -24,7 +24,7 @@ void getName(struct Name* name)
 {
 	char option;
 	printf("Please enter the contact's first name: ");
-	scanf("%30s", (*name).firstName);
+	scanf("%[^\n]30s", (*name).firstName);
 	clearKeyboard();
 	// Get Middle Initial(s)
 	printf("Do you want to enter a middle initial(s)? (y or n): ");
@@ -32,12 +32,12 @@ void getName(struct Name* name)
 	if (option == 1)
 	{
 		printf("Please enter the contact's middle initial(s): ");
-		scanf("%6s", (*name).middleInitial);
+		scanf("%[^\n]6s", (*name).middleInitial);
 		clearKeyboard();
 	}
 	// Get last Name
 	printf("Please enter the contact's last name: ");
-	scanf("%35s", (*name).lastName);
+	scanf("%[^\n]35s", (*name).lastName);
 	clearKeyboard();
 
 }
@@ -86,7 +86,7 @@ void getAddress(struct Address* address)
 	
 	// Get contact's city
 	printf("Please enter the contact's city: ");
-	scanf("%40s", (*address).city);
+	scanf("%[^\n]40s", (*address).city);
 	clearKeyboard();
 }
 

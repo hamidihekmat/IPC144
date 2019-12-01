@@ -393,7 +393,7 @@ void updateContact(struct Contact contacts[], int size)
 		printf("\nContact found:\n\n");
 		displayContact(&contacts[index]);
 		printf("\n");
-		printf("Do you want to update the name? (y or n): ");
+		printf("\nDo you want to update the name? (y or n): ");
 		if (yes())
 		{
 			getName(&contacts[index].name);
