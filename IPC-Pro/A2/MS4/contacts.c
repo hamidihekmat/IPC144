@@ -82,7 +82,7 @@ void getAddress(struct Address* address)
 		}
 		(*address).apartmentNumber = valid;
 	}
-	// Get postal code
+	// Get postal codes
 	printf("Please enter the contact's postal code: ");
 	scanf(" %7[^\n]", (*address).postalCode);
 	clearKeyboard();

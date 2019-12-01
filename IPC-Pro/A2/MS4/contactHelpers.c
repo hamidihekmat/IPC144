@@ -347,11 +347,12 @@ void searchContacts(const struct Contact contacts[], int size)
 {
 	int index;
 	char number[11];
-	printf("Enter the cell number for the contact: ");
+	printf("\nEnter the cell number for the contact: ");
 	getTenDigitPhone(number);
 	index = findContactIndex(contacts, size, number);
 	if (index != -1)
 	{
+		printf("\n");
 		displayContact(&contacts[index]);
 		printf("\n");
 	}
@@ -394,7 +395,7 @@ void updateContact(struct Contact contacts[], int size)
 		printf("\nContact found:\n\n");
 		displayContact(&contacts[index]);
 		printf("\n");
-		printf("\nDo you want to update the name? (y or n): ");
+		printf("Do you want to update the name? (y or n): ");
 		if (yes())
 		{
 			getName(&contacts[index].name);
