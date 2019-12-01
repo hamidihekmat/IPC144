@@ -109,6 +109,9 @@ void getNumbers(struct Numbers* number)
 		printf("Please enter the contact's home phone number: ");
 		getTenDigitPhone((*number).home);
 	}
+	else {
+		number->home[0] = '\0';
+	}
 	// business phone
 	printf("Do you want to enter a business phone number? (y or n): ");
 	option = yes();
@@ -116,6 +119,9 @@ void getNumbers(struct Numbers* number)
 	{
 		printf("Please enter the contact's business phone number: ");
 		getTenDigitPhone((*number).business);
+	}
+	else {
+		number->business[0] = '\0';
 	}
 }
 

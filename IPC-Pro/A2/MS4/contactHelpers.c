@@ -207,7 +207,7 @@ void contactManagerSystem(void)
 			break;
 
 		case 6:
-			sortContacts(contact, MAXCONTACTS);
+			printf("\n<<< Feature to sort is unavailable >>>\n\n");
 			pause();
 			printf("\n");
 			break;
@@ -355,7 +355,7 @@ void searchContacts(const struct Contact contacts[], int size)
 		displayContact(&contacts[index]);
 	}
 	else {
-		printf("*** Contact NOT FOUND ***\n");
+		printf("*** Contact NOT FOUND ***\n\n");
 	}
 }
 
@@ -370,7 +370,7 @@ void addContact(struct Contact contacts[], int size)
 	if (slot != -1)
 	{
 		getContact(&contacts[slot]);
-		printf("--- New contact added! ---\n");
+		printf("--- New contact added! ---\n\n");
 	}
 	else {
 		printf("*** ERROR: The contact list is full! ***\n\n");
@@ -408,11 +408,11 @@ void updateContact(struct Contact contacts[], int size)
 		{
 			getNumbers(&contacts[index].numbers);
 		}
-		printf("--- Contact Updated! ---\n");
+		printf("--- Contact Updated! ---\n\n");
 	}
 	else
 	{
-		printf("*** Contact NOT FOUND ***\n");
+		printf("*** Contact NOT FOUND ***\n\n");
 	}
 
 }
@@ -435,19 +435,21 @@ void deleteContact(struct Contact contacts[], int size)
 		printf("\nContact found:\n");
 		displayContact(&contacts[index]);
 
-		putchar('\n');
 
-		printf("CONFIRM: Delete this contact? (y or n): ");
+		printf("\nCONFIRM: Delete this contact? (y or n): ");
 		if (yes())
 		{
 			strcpy(&contacts[index].numbers.cell[0], "\0");
-			printf("--- Contact deleted! ---\n");
+			printf("--- Contact deleted! ---\n\n");
+		}
+		else {
+			putchar('\n');
 		}
 	}
 
 	else
 	{
-		printf("*** Contact NOT FOUND ***\n");
+		printf("*** Contact NOT FOUND ***\n\n");
 	}
 }
 
