@@ -35,6 +35,9 @@ void getName(struct Name* name)
 		scanf("%[^\n]6s", (*name).middleInitial);
 		clearKeyboard();
 	}
+	else {
+		name->middleInitial[0] = '\0';
+	}
 	// Get last Name
 	printf("Please enter the contact's last name: ");
 	scanf("%[^\n]35s", (*name).lastName);

@@ -353,6 +353,7 @@ void searchContacts(const struct Contact contacts[], int size)
 	if (index != -1)
 	{
 		displayContact(&contacts[index]);
+		printf("\n");
 	}
 	else {
 		printf("*** Contact NOT FOUND ***\n\n");
