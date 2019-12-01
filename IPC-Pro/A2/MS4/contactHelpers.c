@@ -352,6 +352,7 @@ void searchContacts(const struct Contact contacts[], int size)
 	index = findContactIndex(contacts, size, number);
 	if (index != -1)
 	{
+		printf("\n");
 		displayContact(&contacts[index]);
 		printf("\n");
 	}
@@ -391,7 +392,7 @@ void updateContact(struct Contact contacts[], int size)
 
 	if (index != -1)
 	{
-		printf("\nContact found:\n\n");
+		printf("\nContact found:\n");
 		displayContact(&contacts[index]);
 		printf("\n");
 		printf("Do you want to update the name? (y or n): ");
