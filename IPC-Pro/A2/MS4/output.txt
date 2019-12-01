@@ -1,4 +1,4 @@
-Script started on Sat 30 Nov 2019 10:11:03 PM EST
+Script started on Sat 30 Nov 2019 10:48:12 PM EST
 
 ------------------------------------------
 Testing: Final A#2-Milestone #4
@@ -165,7 +165,6 @@ Contact found:
  Maggie R. Greene
     C: 9051112222   H: 9052223333   B: 9053334444
        55 Hightop House, Bolton, A9A 3K3
-
 
 Do you want to update the name? (y or n): yes no
 *** INVALID ENTRY *** <Only (Y)es or (N)o are acceptable>: y
@@ -384,7 +383,6 @@ Contact found:
     C: 1112223333   H:              B: 2223334444
        77 Cityscape Rd., Apt# 1200, Somewhere City, Q8Q 3J3
 
-
 Do you want to update the name? (y or n): y
 Please enter the contact's first name: Rick
 Do you want to enter a middle initial(s)? (y or n): n
@@ -422,7 +420,7 @@ Select an option:> 1
  Sasha Williams
     C: 9052223333   H: 9052223333   B: 9054445555
        55 Hightop House, Bolton, A9A 3K3
- Rick Not Be Grimes
+ Rick Grimes
     C: 1112223333   H:              B: 2223334444
        77 Cityscape Rd., Apt# 1200, Somewhere City, Q8Q 3J3
 +-----------------------------------------------------------------------------+
@@ -441,10 +439,13 @@ Contact Management System
 0. Exit
 
 Select an option:> 5
+
 Enter the cell number for the contact: 9052223333
+
  Sasha Williams
     C: 9052223333   H: 9052223333   B: 9054445555
        55 Hightop House, Bolton, A9A 3K3
+
 (Press Enter to Continue)
 
 Contact Management System
@@ -458,6 +459,7 @@ Contact Management System
 0. Exit
 
 Select an option:> 5
+
 Enter the cell number for the contact: 9998887777
 *** Contact NOT FOUND ***
 
@@ -491,7 +493,7 @@ Contact Management System
 
 Select an option:> 0
 
-Exit the program? (Y)es/(N)o: NO yes
+Exit the program? (Y)es/(N)o: No yes
 *** INVALID ENTRY *** <Only (Y)es or (N)o are acceptable>: ny
 *** INVALID ENTRY *** <Only (Y)es or (N)o are acceptable>: n
 
@@ -511,4 +513,4 @@ Exit the program? (Y)es/(N)o: y
 
 Contact Management System: terminated
 
-Script done on Sat 30 Nov 2019 10:22:06 PM EST
+Script done on Sat 30 Nov 2019 10:56:26 PM EST
