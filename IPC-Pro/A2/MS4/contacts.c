@@ -24,25 +24,28 @@ void getName(struct Name* name)
 {
 	char option;
 	printf("Please enter the contact's first name: ");
-	scanf("%[^\n]%*c", (*name).firstName);
+	scanf("%30s", (*name).firstName);
+	clearKeyboard();
 	// Get Middle Initial(s)
 	printf("Do you want to enter a middle initial(s)? (y or n): ");
 	option = yes();
 	if (option == 1)
 	{
 		printf("Please enter the contact's middle initial(s): ");
-		scanf("%[^\n]%*c", (*name).middleInitial);
-		//clearKeyboard();
+		scanf("%6s", (*name).middleInitial);
+		clearKeyboard();
 	}
 	// Get last Name
 	printf("Please enter the contact's last name: ");
-	scanf("%[^\n]%*c", (*name).lastName);
+	scanf("%35s", (*name).lastName);
+	clearKeyboard();
 
 }
 
 
 // Get and store from standard input the values for Address
 // Put your code here that defines the Contact getAddress function:
+
 void getAddress(struct Address* address)
 {
 
@@ -59,7 +62,9 @@ void getAddress(struct Address* address)
 	(*address).streetNumber = valid;
 	// Get street name
 	printf("Please enter the contact's street name: ");
-	scanf("%[^\n]%*c", (*address).street);
+	scanf("%[^\n]40s", (*address).street);
+	clearKeyboard();
+
 	// Get apartment Number
 	printf("Do you want to enter an apartment number? (y or n): ");
 	option = yes();
@@ -76,11 +81,13 @@ void getAddress(struct Address* address)
 	}
 	// Get postal code
 	printf("Please enter the contact's postal code: ");
-	scanf("%[^\n]%*c", (*address).postalCode);
+	scanf(" %7[^\n]", (*address).postalCode);
+	clearKeyboard();
 	
 	// Get contact's city
 	printf("Please enter the contact's city: ");
-	scanf("%[^\n]%*c", (*address).city);
+	scanf("%40s", (*address).city);
+	clearKeyboard();
 }
 
 

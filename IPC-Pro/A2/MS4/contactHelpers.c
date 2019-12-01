@@ -373,7 +373,7 @@ void addContact(struct Contact contacts[], int size)
 		printf("--- New contact added! ---\n");
 	}
 	else {
-		printf("*** ERROR: The contact list is full! ***\n");
+		printf("*** ERROR: The contact list is full! ***\n\n");
 	}
 }
 
@@ -390,7 +390,7 @@ void updateContact(struct Contact contacts[], int size)
 
 	if (index != -1)
 	{
-		printf("\nContact found:\n");
+		printf("\nContact found:\n\n");
 		displayContact(&contacts[index]);
 		printf("\n");
 		printf("Do you want to update the name? (y or n): ");
