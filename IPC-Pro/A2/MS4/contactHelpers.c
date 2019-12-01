@@ -352,7 +352,6 @@ void searchContacts(const struct Contact contacts[], int size)
 	index = findContactIndex(contacts, size, number);
 	if (index != -1)
 	{
-		printf("\n");
 		displayContact(&contacts[index]);
 		printf("\n");
 	}
