@@ -313,7 +313,7 @@ void displayContact(const struct Contact* contact)
 		printf(" %s %s\n", contact->name.firstName, contact->name.lastName);
 	}
 	printf("    C: %-10s   H: %-10s   B: %-10s\n", contact->numbers.cell, contact->numbers.home, contact->numbers.business);
-	printf("      %d %s, ", contact->address.streetNumber, contact->address.street);
+	printf("       %d %s, ", contact->address.streetNumber, contact->address.street);
 	if (contact->address.apartmentNumber != 0)
 	{
 		printf("Apt# %d, ", contact->address.apartmentNumber);
