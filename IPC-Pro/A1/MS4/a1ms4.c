@@ -29,7 +29,7 @@ int main(void)
 
 	// Display the title
 	printf("Contact Management System\n");
-	printf("-------------------------\n");
+	printf("=========================\n");
 
 	// Get contact's name
 	getName(&contact.name);

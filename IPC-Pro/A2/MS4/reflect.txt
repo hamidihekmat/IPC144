@@ -1,0 +1,21 @@
+// Hekmat Hamidi
+// 132645169
+// NXX
+
+This milestone was very function heavy, I learned to use and create different
+functions that would also be helper functions for other functions. 
+For example I used the findContactIndex function for many of my other functions
+such as updateContact and etc.
+Re-suing function can make save you lots of time, you don't really need to code
+again and again, you can simply just think about the purpuse of the functiona
+and reuse it as you wish.
+
+I think this would be a great program if we had the option of saving the contacts in to a text file or more like a database. This way the contacts actually save and we dont have to keep re-entering the data.
+
+So far this assignemnt was the toughest since you had to track every function 
+and try to find and fix bugs in the program. But, the most annoying thing is fixing the output error. My program was working but I had issues with spacing which
+took me hours to fix. Many students are frustrated by this. I wish there was
+a way to only check the function itself and analyse the output instead of 
+cheking all the output at once.
+
+
